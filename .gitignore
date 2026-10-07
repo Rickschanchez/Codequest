@@ -1,0 +1,22 @@
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.keystore
+!debug.keystore
+.kotlin/
+*.hprof
+
+# Firebase config stays local — it contains an API key. Drop your own into
+# app/google-services.json to enable Firebase Auth (the build works without it).
+google-services*.json
+
+# Unrelated material kept out of this repository.
+Policy-Gated-Enterprise-Execution-System/
